@@ -27,10 +27,10 @@ const upload = multer({ storage: storage });
 
 // Create MySQL connection
 const connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'c390_portfoliodevelopment'
+    host: 'kcpgm0ka8vudfq76.chr7pe7iynqr.eu-west-1.rds.amazonaws.com',
+    user: 'pheenscsy21jpqqu',
+    password: 'htqewyo8l2ua5rug',
+    database: 'c390_jawdb'
 });
 connection.connect((err) => {
     if (err) {
