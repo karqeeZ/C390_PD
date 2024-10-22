@@ -30,7 +30,7 @@ const connection = mysql.createConnection({
     host: 'kcpgm0ka8vudfq76.chr7pe7iynqr.eu-west-1.rds.amazonaws.com',
     user: 'pheenscsy21jpqqu',
     password: 'htqewyo8l2ua5rug',
-    database: 'c390_jawdb'
+    database: 'qizribrriek917ev'
 });
 connection.connect((err) => {
     if (err) {
